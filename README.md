@@ -1,2 +1,6 @@
-# csd-340
-Course repository for CSD 340 Web Development
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+
+- Adam Bailey
+- Brady Heinz
