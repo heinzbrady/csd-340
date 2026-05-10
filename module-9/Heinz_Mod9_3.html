@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <script>
+        var word1 = "adventure";
+        var word2 = "coffee";
+        var word3 = "coding";
+        var word4 = "success";
+
+        function replaceWord(id, word) {
+            document.getElementById(id).innerHTML = word;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <p>
+        Every morning begins with a new 
+        <span id="word1">____________</span>.
+        Some days are easy, while others require patience and focus.
+    </p>
+
+    <p>
+        I usually start my day with 
+        <span id="word2">____________</span>
+        while reviewing what needs to be finished.
+    </p>
+
+    <p>
+        One skill I continue to improve is 
+        <span id="word3">____________</span>.
+        With practice, effort often leads to 
+        <span id="word4">____________</span>.
+    </p>
+
+    <button onclick="replaceWord('word1', word1)">
+        Reveal Word 1
+    </button>
+
+    <button onclick="replaceWord('word2', word2)">
+        Reveal Word 2
+    </button>
+
+    <button onclick="replaceWord('word3', word3)">
+        Reveal Word 3
+    </button>
+
+    <button onclick="replaceWord('word4', word4)">
+        Reveal Word 4
+    </button>
+
+</body>
+</html>
